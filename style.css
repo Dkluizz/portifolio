@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body *{
+    font-family: 'Inter' sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url(./assets/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container{
+    width: 22.5rem;
+    margin: 4rem auto;
+}
+
+#profile{
+    text-align: center;
+    padding: 2rem;
+}
+
+#profile p{
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0.5rem;
+}
+
+#profile img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+   
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap:1rem;
+    margin: 1.5rem 0;
+
+}
+
+.link a {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+   
+ 
+}
+
+.link a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.link .icone{
+    margin: 0 0.5rem;
+    height: 1rem;
+    list-style: none;
+    
+}
+
