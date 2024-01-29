@@ -17,6 +17,16 @@ body{
    
 }
 
+.technologies{
+    
+    text-align: center;
+}
+.technologies img{
+    width: 10%;
+    margin: 0 5px;
+    
+}
+
 
 #container{
     width: 22.5rem;
@@ -25,7 +35,7 @@ body{
 
 #profile{
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #profile p{
